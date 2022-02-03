@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+/* Estilos  header */
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.logoPrincipal {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  /* justify-content: center; */
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.flexNavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.tituloUno {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Parrafo {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin-top: 100px;
+}
+.flexIzq {
+  display: flex;
+
+  align-items: center;
+}
+.flexDer {
+  display: flex;
+  /* Invierto el orden con reverse */
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.textoImagenesIzq {
+  display: flex;
+  text-align: center;
+  padding-left: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textoImagenesDer {
+  display: flex;
+  text-align: center;
+  padding-right: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* lo saque investigando de internet de como puedo hacer
+un formulario de contacto... espero no afecte mucho porque
+la verdad no lo lograba (DE ACA PARA ABAJO ):) */
+.contactForm {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+h2 {
+  font-size: 39px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* REVISION Y PRUEBA */
+/* .Parrafo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  width: 400px;
+  height: 100px;
+  margin: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+} */
+
+/* .Parrafo {
+  color: #0033ff;
+  text-indent: 1.5;
+  font-size: 12px;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.padre-flex {
+  display: flex;
+  flex-direction: row;
+} */
