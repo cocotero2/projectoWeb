@@ -9,12 +9,12 @@ nav {
 
 main {
   grid-area: main;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 footer {
   grid-area: footer;
-  background-color: #ec731e;
+  /* background-color: #ec731e; */
 }
 
 body {

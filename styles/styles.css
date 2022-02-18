@@ -161,18 +161,20 @@ h4 {
   font-size: 100px;
 }
 
-.flexIzq {
+/* .flexIzq {
   display: flex;
+  position: fixed;
 
   align-items: center;
 }
 .flexDer {
   display: flex;
-  /* Invierto el orden con reverse */
+
   flex-direction: row-reverse;
+  position: fixed;
   align-items: center;
   background-color: aliceblue;
-}
+} */
 
 .textoImagenesIzq {
   display: flex;
