@@ -1,31 +1,42 @@
 header {
   grid-area: header;
-}
-
-footer {
-  grid-area: footer;
-}
-
-section {
-  grid-area: section;
+  background-color: red;
 }
 
 nav {
   grid-area: nav;
 }
 
-aside {
-  grid-area: aside;
+main {
+  grid-area: main;
+  background-color: blue;
 }
 
-#main {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 15% 10% auto 15%;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  grid-template-areas: "header " "nav " "main " "footer";
+footer {
+  grid-area: footer;
+  background-color: #ec731e;
 }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 20% 70% 10%;
+  grid-template-areas:
+    "header main"
+    "nav main"
+    "footer main";
+}
+
+/* #main {
+  display: grid;
+  grid-template-columns: 600px auto 0px;
+  grid-template-rows: repeat(3, 100px);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  grid-template-areas: "header " "nav" "main " "footer";
+} */
 
 /* #main,
 section {
