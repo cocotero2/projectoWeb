@@ -16,8 +16,10 @@ header {
 
 nav {
   left: 0;
-  position: fixed;
+  justify-content: center;
+  /* position: fixed; */
 }
+
 footer {
   position: fixed;
   bottom: 0;
@@ -33,7 +35,7 @@ img {
 
 .logoContainer {
   display: flex;
-  /* justify-content: center; */
+
   position: fixed;
   width: 100%;
 }
@@ -45,6 +47,11 @@ img {
   border-radius: 15px;
   justify-content: center;
 }
+
+.flexNavbar {
+  padding-top: 60%;
+}
+
 ul {
   list-style-type: none;
   position: fixed;

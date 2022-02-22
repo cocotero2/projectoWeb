@@ -9,7 +9,6 @@ nav {
 
 main {
   grid-area: main;
-  margin-top: 70px;
 }
 
 footer {
@@ -17,14 +16,13 @@ footer {
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-template-rows: 20% 70% 10%;
+  grid-template-rows: 70% 10%;
   grid-template-areas:
     "header main"
-    "nav main"
     "footer main";
 }
 
@@ -35,8 +33,32 @@ body {
     grid-template-rows: 20% 20% 50% 10%;
     grid-template-areas:
       "header"
-      "nav"
       "main"
       "footer";
+  }
+
+  main {
+    position: relative;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  .logoPrincipal {
+    display: flex;
+    position: static;
+    justify-content: center;
+  }
+
+  .flexNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
   }
 }
