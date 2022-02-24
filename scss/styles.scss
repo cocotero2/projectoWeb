@@ -1,0 +1,41 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: green;
+
+  nav {
+    left: 0;
+    justify-content: center;
+    background-color: green;
+    color: green;
+  }
+}
+
+// intentando <-- revisar Javier
+
+// cambiando el main practicando con el main mientras saco las etiquetas del css normal
+// no se si debo eliminar mi css completo asi que no cambiare todo
+main {
+  h1 {
+    color: aqua;
+  }
+
+  h4 {
+    align-content: center;
+    color: aqua;
+    text-align: center;
+    width: 100%;
+  }
+
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+  }
+}
+
+// en la entrega de bootstrap arreglare mejor el contenido ya que necesito saber que esta
+// chocando con que (a nivel de etiquetas) perdon por lo poco...

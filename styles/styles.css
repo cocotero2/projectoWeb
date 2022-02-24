@@ -8,15 +8,15 @@ nav {
   border-radius: 15px;
 }
 
-header {
+/* header {
   position: fixed;
   top: 0;
   left: 0;
-}
+} */
 
 nav {
-  left: 0;
-  justify-content: center;
+  /* left: 0; */
+  /* justify-content: center; */
   /* position: fixed; */
 }
 
@@ -68,18 +68,18 @@ a {
   font-size: 30px;
 }
 
-.productos {
+/* .productos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 50px;
   width: 100%;
-}
+} */
 /* Tamaño de texto de las imagenes */
-h4 {
+/* h4 {
   text-align: center;
   width: 100%;
-}
+} */
 
 .tituloUno {
   font-size: 50px;
