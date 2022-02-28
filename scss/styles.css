@@ -1,40 +1,65 @@
+body {
+  background-color: aquamarine;
+}
+
 header {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: green;
 }
 
 header nav {
   left: 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: green;
-  color: green;
+  justify-content: center;
+  padding-top: 350px;
+}
+
+header nav .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+header nav .sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+header nav .sidenav a:hover {
+  color: #f1f1f1;
 }
 
 main h1 {
-  color: aqua;
+  color: black;
 }
 
 main h4 {
-  -ms-flex-line-pack: center;
-      align-content: center;
-  color: aqua;
+  align-content: center;
+  color: green;
   text-align: center;
   width: 100%;
 }
 
 main .productos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-top: 50px;
   width: 100%;
 }
-/*# sourceMappingURL=styles.css.map */
+
+footer {
+  display: flex;
+  position: fixed;
+}

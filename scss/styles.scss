@@ -1,29 +1,60 @@
+body {
+  background-color: aquamarine;
+}
+
 header {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: green;
 
   nav {
     left: 0;
     justify-content: center;
-    background-color: green;
-    color: green;
+    padding-top: 350px;
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 60px;
+      transition: 0.5s;
+      // padding-top: 60%;
+    }
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+
+    // .sidenav .closebtn {
+    //   position: absolute;
+    //   top: 0;
+    //   right: 25px;
+    //   font-size: 36px;
+    //   margin-left: 50px;
+    // }
   }
 }
 
-// intentando <-- revisar Javier
-
-// cambiando el main practicando con el main mientras saco las etiquetas del css normal
-// no se si debo eliminar mi css completo asi que no cambiare todo
 main {
   h1 {
-    color: aqua;
+    color: black;
   }
 
   h4 {
     align-content: center;
-    color: aqua;
+    color: green;
     text-align: center;
     width: 100%;
   }
@@ -37,5 +68,7 @@ main {
   }
 }
 
-// en la entrega de bootstrap arreglare mejor el contenido ya que necesito saber que esta
-// chocando con que (a nivel de etiquetas) perdon por lo poco...
+footer {
+  display: flex;
+  position: fixed;
+}
