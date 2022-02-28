@@ -59,6 +59,12 @@ main .productos {
   width: 100%;
 }
 
+main #infoPrincipal {
+  display: flex;
+  width: 50%;
+  height: 50%;
+}
+
 footer {
   display: flex;
   position: fixed;

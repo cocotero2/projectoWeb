@@ -25,7 +25,7 @@ img {
   display: flex;
 
   position: fixed;
-  width: 100%;
+  width: 50%;
 }
 
 .logoPrincipal {
@@ -35,10 +35,6 @@ img {
   border-radius: 15px;
   justify-content: center;
 }
-
-/* .flexNavbar {
-  padding-top: 60%;
-} */
 
 ul {
   list-style-type: none;
