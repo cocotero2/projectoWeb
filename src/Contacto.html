@@ -8,84 +8,108 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../styles/styles.css" />
-    <link rel="stylesheet" href="../styles/styless.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- <link rel="stylesheet" href="../styles/styles.css" /> -->
+    <!-- <link rel="stylesheet" href="../styles/styless.css" /> -->
     <link rel="stylesheet" href="../scss/styles.css" />
     <title>Contacto</title>
-  </head>
-  <body id="main" class="container">
-    <!-- Barra de navegacion con Logo -->
-    <header>
-      <section class="logoContainer">
-        <img
-          src="../Images/KiboiLogo.png"
-          alt="KiboiSushi Logo"
-          class="logoPrincipal"
-        />
-      </section>
+  <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+          <a href="" class="navbar-brand">Kiboi Sushi</a>
 
-      <nav id="mySidenav" class="sidenav">
-        <a href="../index.html">Inicio</a>
-        <a href="./Productos.html">Productos</a>
-        <a href="./Ubicacion.html">Ubicacion</a>
-        <a href="./Contacto.html">Contacto</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/Productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/Ubicacion.html">Ubicacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </nav>
+      <!-- /Navbar -->
     </header>
     <!-- formulario de contacto -->
-    <main class="row">
-      <section class="col-6">
-        <div>
-          <h2 class="formulario">Formulario de contacto</h2>
+    <main >
+      <!-- Logo Info -->
+      <section class="bg-dark text-light p-3 text-center text-sm-start">
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-between">
+            <img class="img-fluid w-40" src="../Images/KiboiLogo.png" alt="" />
+            <div>
+              <h1>
+                Rellena este
+                <span class="text-danger"> Formulario</span>
+              </h1>
+              <p class="lead my-4">
+                Y nos pondremos en contacto contigo lo mas pronto posible!
+              </p>
+            </div>
+          </div>
         </div>
+        <!-- /Logo Info -->
       </section>
-      <section>
-        <div class="contactForm">
-          <form action="#" class="formulario">
-            <label for="Nombre"
-              >Nombre:<input type="text" placeholder="Nombre de contacto"
-            /></label>
-            <br />
-            <label for="email"
-              >Email:
-              <input
-                type="email"
-                placeholder="aaa@gmail.com"
-                name="email"
-              /><br />
-            </label>
-            <label for="Comentarios">
-              Comentarios:<br />
-              <textarea placeholder="Comentarios"></textarea>
-            </label>
-            <br />
 
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Limpiar" />
-          </form>
+      <section class="container">
+        <div class="row">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
+          <a href="#" type="submit" class="btn btn-danger mt-3">Enviar!</a>
+          
         </div>
       </section>
+      
     </main>
-    <!-- footer para mis paginas -->
-    <footer class="footer">
-      <li>
-        <a
-          href="https://www.instagram.com/"
-          class="bi bi-instagram"
-          class="linkRedes"
+    <!-- Footer -->
+    <footer class="p-5 bg-light text-dark text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 Javier Esperanza</p>
+
+        <a href="https://www.facebook.com"
+          ><i class="bi bi-facebook text-dark mx-1"></i
         ></a>
-      </li>
-      <li>
-        <a
-          href="https://www.facebook.com"
-          class="bi bi-facebook"
-          class="linkRedes"
+        <a href="https://www.instagram.com"
+          ><i class="bi bi-instagram text-dark mx-1"></i
         ></a>
-      </li>
+      </div>
     </footer>
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    /> -->
+    <!-- /Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
+
+
+ 
