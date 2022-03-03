@@ -16,6 +16,7 @@
     />
   
     <link rel="stylesheet" href="../scss/styles.css" />
+    <link rel="stylesheet" href="../styles/styles.css">
     <title>Contacto</title>
   <header>
       <!-- Navbar -->
@@ -61,7 +62,7 @@
             <img class="img-fluid w-40" src="../Images/KiboiLogo.png" alt="" />
             <div>
               <h1>
-                Rellena este
+                Llena este
                 <span class="text-danger"> Formulario</span>
               </h1>
               <p class="lead my-4">
@@ -75,23 +76,30 @@
       <section class="p-5">
         <section class="container">
           <div class="row">
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Email address</label>
-            </div>
-            <div class="form-floating">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-              <label for="floatingPassword">Password</label>
-            </div>
-            <section class="p-2">
+            <div class="contactForm">
+          <form action="#" class="formulario">
+            <label for="Nombre"
+              >Nombre:<input type="text" placeholder="Nombre de contacto"
+            /></label>
+            <br />
+            <label for="email"
+              >Email:
+              <input
+                type="email"
+                placeholder="aaa@gmail.com"
+                name="email"
+              /><br />
+            </label>
+            <label for="Comentarios">
+              Comentarios:<br />
+              <textarea placeholder="Comentarios"></textarea>
+            </label>
+            <br />
 
-              <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Comments</label>
-              </div>
-            </section>
-            <a href="#" type="submit" class="btn btn-danger mt-3">Enviar!</a>
-            
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpiar" />
+          </form>
+        </div>
           </div>
         </section>
       </section>
@@ -118,3 +126,23 @@
 
 
  
+
+<!-- <div class="row">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <section class="p-2">
+
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+            </section>
+            <a href="#" type="submit" class="btn btn-danger mt-3">Enviar!</a>
+            
+          </div> -->

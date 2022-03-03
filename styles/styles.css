@@ -1,99 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 
-header,
-footer,
-section,
-nav {
-  border-radius: 15px;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  justify-content: space-between;
-}
-
-img {
-  border-radius: 3px;
-}
-
-/* Estilos  header */
-
-.logoContainer {
-  display: flex;
-
-  position: fixed;
-  width: 50%;
-}
-
-.logoPrincipal {
-  display: flex;
-  width: 250px;
-  height: 250px;
-  border-radius: 15px;
-  justify-content: center;
-}
-
-ul {
-  list-style-type: none;
-  position: fixed;
-}
-
-a {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: #a8a9b4;
-  padding: 12px 15px;
-  margin-bottom: 8px;
-  transition: 0.3s;
-  font-size: 30px;
-}
-
-.tituloUno {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.Parrafo {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-size: 20px;
-  margin-top: 100px;
-}
-
-.linkRedes {
-  font-size: 100px;
-}
-
-.textoImagenesIzq {
-  display: flex;
-  text-align: center;
-  padding-left: 400px;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.textoImagenesDer {
-  display: flex;
-  text-align: center;
-  padding-right: 400px;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
 .contactForm {
   width: 460px;
   height: auto;
@@ -101,7 +8,7 @@ a {
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: aquamarine;
+  background-color: rgb(253, 105, 105);
   padding-left: 30px;
 }
 
