@@ -1,42 +1,23 @@
 main {
-  .contactForm {
-    width: 460px;
-    height: auto;
-    margin: 80px auto;
-    border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-
-    padding-left: 30px;
+  @mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
   }
-
-  input {
-    background-color: #f84747;
-    width: 408px;
-    height: 40px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
+  .btn {
+    @include sizes(300px, 40px);
   }
+}
 
-  label {
-    display: block;
-    float: center;
-  }
+footer {
+  $colors: (
+    twitter: #55acee,
+    facebook: #3a5795,
+    send-mail: #c25e30,
+  );
 
-  textarea {
-    background-color: #fbfbfb;
-    width: 405px;
-    height: 150px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-    padding-top: 15px;
+  @each $name-color, $bgcolor in $colors {
+    .btn--#{$name-color} {
+      background-color: $bgcolor;
+    }
   }
 }

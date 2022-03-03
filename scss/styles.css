@@ -1,39 +1,17 @@
-main .contactForm {
-  width: 460px;
-  height: auto;
-  margin: 80px auto;
-  border-radius: 10px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-}
-
-main input {
-  background-color: #f84747;
-  width: 408px;
+main .btn {
   height: 40px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px;
+  width: 300px;
 }
 
-main label {
-  display: block;
-  float: center;
+footer .btn--twitter {
+  background-color: #55acee;
 }
 
-main textarea {
-  background-color: #fbfbfb;
-  width: 405px;
-  height: 150px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-  padding-top: 15px;
+footer .btn--facebook {
+  background-color: #3a5795;
 }
+
+footer .btn--send-mail {
+  background-color: #c25e30;
+}
+/*# sourceMappingURL=styles.css.map */
