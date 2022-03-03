@@ -2,16 +2,4 @@ main .btn {
   height: 40px;
   width: 300px;
 }
-
-footer .btn--twitter {
-  background-color: #55acee;
-}
-
-footer .btn--facebook {
-  background-color: #3a5795;
-}
-
-footer .btn--send-mail {
-  background-color: #c25e30;
-}
 /*# sourceMappingURL=styles.css.map */
