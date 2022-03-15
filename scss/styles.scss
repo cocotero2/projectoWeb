@@ -1,9 +1,0 @@
-main {
-  @mixin sizes($width, $height) {
-    height: $height;
-    width: $width;
-  }
-  .btn {
-    @include sizes(300px, 40px);
-  }
-}
